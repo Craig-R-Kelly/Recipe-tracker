@@ -1,0 +1,109 @@
+/* App.css */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
+
+.App {
+  padding: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+/* [use of `object-fit` and image sizing as specified in instructions] */
+img {
+  object-fit: scale-down;
+  width: 100%; /* Set the width to 100% to make it responsive */
+  height: 100%; /* Set the height to 100% to maintain aspect ratio */
+}
+
+/* [header text alignment as specified in instructions] */
+header {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align: center
+}
+
+/* [header fonts and size as specified in instructions] */
+header h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 64px;                     /* per instructions */
+}
+
+/* typography */
+
+html {
+  font-family: 'helvetica neue', sans-serif;
+}
+
+thead th, tfoot th {
+  font-family: 'Rock Salt';
+}
+
+th {
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+td {
+  letter-spacing: 1px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* table */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  overflow:hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.content_td p {
+  max-width: 100%;
+  max-height: 100px;
+  overflow-y: auto;
+  text-overflow: ellipsis;}
+
+/* [This adds a vertical scrollbar when necessary, as specified in instructions.] */  
+.content_td {
+  p{  
+  overflow-y: auto;
+  }
+}
+
+/* Column Size for thead */
+/* Column size for tbody */
+/* [setting of column width and use of `nth-child` as specified in instructions] */
+/* [The two rules for `thead` below had the desired effect on `tbody` as well] */
+thead th {
+  width: 10%;
+}
+
+thead th:nth-child(4),
+thead th:nth-child(5) {
+  width: 30%;
+}
+
+/* [The next two rules were necessary to apply the same spacing to the form.
+    I could not, however, figure out how to make default display (before dragging) the full 30%. */
+tbody tr td {
+  width: 10%;
+}
+
+tbody tr td:nth-child(4),
+tbody tr td:nth-child(5) {
+  width: 30%;
+}
+
+/* [use of `nth-child` for "zebra-striping" of rows as specified in instructions.
+    I changed background color from #fff0c7 to a green of similar lightness */
+.recipe-list tbody tr:nth-child(odd) {
+  background-color: #c7ffd9;
+}
+
