@@ -2,6 +2,10 @@
 
 This is the interface for a food recipe CRUD app:  it allows a user to <i>C</i>reate, <i>R</i>ead, <i>U</i>pdate, or <i>D</i>elete selected data.
 
+## Link
+
+* put link here
+
 ## Context and Purpose
 
 This React app was written to demonstrate
@@ -16,3 +20,10 @@ This React app was written to demonstrate
 * installation of packages with NPM
 * React `useState()` hook
 * debugging via console output and VS Code debugger
+
+## Screenshots
+
+* screenshot1
+* screenshot2
+* screenshot3
+ 
