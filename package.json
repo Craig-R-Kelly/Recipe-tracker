@@ -1,6 +1,5 @@
 {
   "name": "recipe-app",
-  "homepage": "https://craig-r-kelly.github.io/Recipe-tracker/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
