@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      <header><h1>Delicious Noms: Nom Nom Nom</h1></header>
+      <header><h1>Delicious Food Recipes</h1></header>
       <RecipeList recipes={recipes} onDelete={handleDelete} />
       <RecipeCreate onCreate={handleCreate} />
     </div>
