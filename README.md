@@ -23,7 +23,14 @@ This React app was written to demonstrate
 
 ## Screenshots
 
-* screenshot1
-* screenshot2
-* screenshot3
+### Upon initial load, with data from `RecipeData.js`:
+![](screenshots/screenshot1.png)
+
+### While entering a new recipe, before clicking `Create`:
+Notice that image at entered URL is not yet displayed<br> 
+![](screenshots/screenshot2.png)
+
+### After new recipe has been added:
+And now the image itself is displayed<br>
+![](screenshots/screenshot3.png)
  
