@@ -2,10 +2,10 @@
 
 This is the interface for a food recipe CRUD app:  it allows a user to <i>C</i>reate, <i>R</i>ead, <i>U</i>pdate, or <i>D</i>elete selected data.
 
-## Link
+<!--## Link
 
 * Here it is running at [GitHub pages](https://craig-r-kelly.github.io/Recipe-tracker/).
-
+-->
 ## Context and Purpose
 
 This React app was written to demonstrate
